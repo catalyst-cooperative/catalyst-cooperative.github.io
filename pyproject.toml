@@ -1,0 +1,11 @@
+[project]
+name = "docs-catalyst-coop"
+version = "0.1.0"
+description = "Top level documentation index for Catalyst Cooperative."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mdx-gh-links>=0.4",
+    "mdx-truly-sane-lists>=1.3",
+    "mkdocs-material>=9.5.43",
+]

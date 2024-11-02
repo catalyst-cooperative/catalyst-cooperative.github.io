@@ -1,0 +1,83 @@
+site_name: Catalyst MkDocs Material Test
+site_url: https://docs.catalyst.coop
+site_description: A top level documentation index for Catalyst Cooperative (TEST).
+repo_name: catalyst-cooperative/catalyst-cooperative.github.io
+edit_uri: edit/main/docs/
+copyright: "Copyright &copy; 2024 Catalyst Cooperative"
+remote_branch: main
+
+theme:
+  name: material
+  logo: assets/pole-cat.png
+  features:
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: yellow
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+#nav:
+#  - Home: index.md
+#  - Evaluating Open Data:
+#    - Curation: evaluating-open-data/curation.md
+#    - Licensing: evaluating-open-data/licensing.md
+#    - Format: evaluating-open-data/data-formats.md
+#    - Level of Structure: evaluating-open-data/level-of-structure.md
+#    - Structural Attributes: evaluating-open-data/structural-attributes.md
+#    - Linkability: evaluating-open-data/linkability.md
+#  - Data Sources:
+#    - EIA: data-sources/eia.md
+#    - FERC: data-sources/ferc.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/catalyst-cooperative
+      name: Catalyst Cooperative on GitHub
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/catalyst.coop
+      name: Catalyst Cooperative on BlueSky
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.energy/@CatalystCoop
+      name: Catalyst Cooperative on Mastodon
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/catalyst-cooperative
+      name: Catalyst Cooperative on LinkedIn
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/catalystcooperative
+      name: Catalyst Cooperative on Kaggle
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/CatalystCoop
+      name: Catalyst Cooperative on Twitter
+  analytics:
+    provider: google
+    property: G-EXWBBTVMWK
+
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+  - mdx_gh_links
