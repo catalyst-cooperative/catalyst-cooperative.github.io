@@ -3,7 +3,8 @@ site_name: Catalyst MkDocs Material Test
 site_url: https://docs.catalyst.coop
 site_description: A top level documentation index for Catalyst Cooperative (TEST).
 repo_name: catalyst-cooperative/catalyst-cooperative.github.io
-edit_uri: https://github.com/catalyst-cooperative/catalyst-cooperative.github.io/edit/main/docs/
+repo_url: https://github.com/catalyst-cooperative/catalyst-cooperative.github.io
+edit_uri: edit/main/docs/
 copyright: "Copyright &copy; 2024 Catalyst Cooperative"
 
 theme:
@@ -12,6 +13,7 @@ theme:
   features:
     - content.action.edit
     - content.action.view
+    - search.suggest
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -32,18 +34,24 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-#nav:
-#  - Home: index.md
-#  - Evaluating Open Data:
-#    - Curation: evaluating-open-data/curation.md
-#    - Licensing: evaluating-open-data/licensing.md
-#    - Format: evaluating-open-data/data-formats.md
-#    - Level of Structure: evaluating-open-data/level-of-structure.md
-#    - Structural Attributes: evaluating-open-data/structural-attributes.md
-#    - Linkability: evaluating-open-data/linkability.md
-#  - Data Sources:
-#    - EIA: data-sources/eia.md
-#    - FERC: data-sources/ferc.md
+plugins:
+  - search
+  - tags
+  - git-committers:
+      repository: catalyst-cooperative/catalyst-cooperative.github.io
+      branch: main
+  - git-revision-date-localized
+
+nav:
+  - Introduction: index.md
+  - Evaluating Open Data:
+      - Curation: evaluating-energy-data/curation.md
+      - Licensing: evaluating-energy-data/licensing.md
+      - Format: evaluating-energy-data/data-formats.md
+      - Level of Structure: evaluating-energy-data/level-of-structure.md
+      - Structural Attributes: evaluating-energy-data/structural-attributes.md
+      - Linkability: evaluating-energy-data/linkability.md
+  - Data Sources: data-sources.md
 
 extra:
   social:
