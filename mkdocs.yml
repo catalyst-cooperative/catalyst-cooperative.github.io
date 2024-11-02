@@ -1,9 +1,9 @@
 ---
 site_name: Catalyst MkDocs Material Test
-site_url: https://catalyst-cooperative.github.io
+site_url: https://docs.catalyst.coop
 site_description: A top level documentation index for Catalyst Cooperative (TEST).
 repo_name: catalyst-cooperative/catalyst-cooperative.github.io
-edit_uri: edit/main/docs/
+edit_uri: https://github.com/catalyst-cooperative/catalyst-cooperative.github.io/edit/main/docs/
 copyright: "Copyright &copy; 2024 Catalyst Cooperative"
 
 theme:
