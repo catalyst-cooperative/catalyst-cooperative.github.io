@@ -1,11 +1,11 @@
 ---
-site_name: Catalyst MkDocs Material Test
+site_name: Data Liberation Engineering
 site_url: https://docs.catalyst.coop
 site_description: A top level documentation index for Catalyst Cooperative (TEST).
 repo_name: catalyst-cooperative/catalyst-cooperative.github.io
 repo_url: https://github.com/catalyst-cooperative/catalyst-cooperative.github.io
 edit_uri: edit/main/docs/
-copyright: "Copyright &copy; 2024 Catalyst Cooperative"
+copyright: '<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> &copy; 2024 Catalyst Cooperative'
 
 theme:
   name: material
@@ -15,7 +15,7 @@ theme:
     - content.action.view
     - search.suggest
   icon:
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/git-alt
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -70,6 +70,9 @@ extra:
     - icon: fontawesome/brands/kaggle
       link: https://www.kaggle.com/catalystcooperative
       name: Catalyst Cooperative on Kaggle
+    #   - icon: fontawesome/solid/face-smile-beam
+    #     link: https://www.huggingface.co/catalyst-cooperative
+    #     name: Catalyst Cooperative on Hugging Face
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/CatalystCoop
       name: Catalyst Cooperative on Twitter
