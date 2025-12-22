@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.catalyst.coop/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.catalyst.coop/data-sources/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.catalyst.coop/evaluating-energy-data/curation/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.catalyst.coop/evaluating-energy-data/format/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.catalyst.coop/evaluating-energy-data/level-of-structure/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.catalyst.coop/evaluating-energy-data/licensing/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.catalyst.coop/evaluating-energy-data/linkability/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.catalyst.coop/evaluating-energy-data/structural-attributes/</loc>
+         <lastmod>2025-12-22</lastmod>
+    </url>
+</urlset>
