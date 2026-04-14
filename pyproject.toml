@@ -5,7 +5,7 @@ description = "Top level documentation index for Catalyst Cooperative."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "pre-commit>=4.0.1",
+    "prek>=0.3.9",
 ]
 
 [tool.pixi.workspace]
