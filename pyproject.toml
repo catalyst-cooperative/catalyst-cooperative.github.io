@@ -4,9 +4,6 @@ version = "0.1.0"
 description = "Top level documentation index for Catalyst Cooperative."
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = [
-    "prek>=0.3.9",
-]
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
@@ -24,3 +21,4 @@ description = "Build PUDL docs using Sphinx"
 [tool.pixi.dependencies]
 sphinx = ">=9.1.0,<10"
 pydata-sphinx-theme = ">=0.17.0,<0.18"
+prek = ">=0.3.9"
