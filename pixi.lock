@@ -380,7 +380,7 @@ packages:
 - pypi: ./
   name: docs-catalyst-coop
   version: 0.1.0
-  sha256: 243190d11959b5f23d8a2d93320196e91937469d1b2be30d69f6f003a7024528
+  sha256: f04121f10988d73c3e684d5df6417ce60c03d1c06f5603cf19e23bb677b99b82
   requires_python: '>=3.14'
 - conda: https://conda.anaconda.org/conda-forge/noarch/docutils-0.22.4-pyhd8ed1ab_0.conda
   sha256: 0d605569a77350fb681f9ed8d357cc71649b59a304099dc9d09fbeec5e84a65e

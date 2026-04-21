@@ -14,7 +14,7 @@ docs-catalyst-coop = { path = ".", editable = true }
 
 [tool.pixi.tasks.docs-build]
 cmd = """
-python -m sphinx --jobs auto -W -b html src build/html
+python -m sphinx --jobs auto -W -b html src build/html && cp CNAME build/html
 """
 description = "Build PUDL docs using Sphinx"
 
