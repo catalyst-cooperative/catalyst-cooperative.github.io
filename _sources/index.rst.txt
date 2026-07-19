@@ -30,7 +30,7 @@ A collection of example notebooks that work with PUDL data.
 - The `Marimo <https://docs.marimo.io/>`__ notebooks are hosted in `the PUDL Data Viewer
   <https://data.catalyst.coop/dashboards>`_
 
-`Catalyst Agent Skills <https://github.com/catalyst-cooperative/agent-skills>`__
+`Catalyst Agent Skills <https://docs.catalyst.coop/agent-skills>`__
 --------------------------------------------------------------------------------
 
 A collection of `agent skills <https://agentskills.io/home>`__ that help LLM-based
