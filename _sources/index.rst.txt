@@ -57,8 +57,8 @@ analyses. Developed using `The Carpentries <https://carpentries.org/>`__ pedagog
 framework with financial support from the `Alfred P. Sloan Foundation
 <https://sloan.org/>`__.
 
-`FERC XBRL Extractor <https://docs.catalyst.coop/ferc-xbrl-extractor>`__
-------------------------------------------------------------------------
+`FERC XBRL Extractor <https://catalystcoop-ferc-xbrl-extractor.readthedocs.io/en/latest/>`__
+--------------------------------------------------------------------------------------------
 
 A Python package for extracting FERC Form 1, 2, 6, 60, & 714 data from the XML-based
 `XBRL format <https://en.wikipedia.org/wiki/XBRL>`__ it's published in, into file-based
