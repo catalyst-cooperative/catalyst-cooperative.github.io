@@ -30,6 +30,12 @@ A collection of example notebooks that work with PUDL data.
 - The `Marimo <https://docs.marimo.io/>`__ notebooks are hosted in `the PUDL Data Viewer
   <https://data.catalyst.coop/dashboards>`_
 
+`Catalyst Agent Skills <https://github.com/catalyst-cooperative/agent-skills>`__
+--------------------------------------------------------------------------------
+
+A collection of `agent skills <https://agentskills.io/home>`__ that help LLM-based
+agents work with the PUDL data, metadata, and codebase.
+
 `PUDL Data Archivers <https://github.com/catalyst-cooperative/pudl-archiver>`__
 -------------------------------------------------------------------------------
 
@@ -51,12 +57,6 @@ analyses. Developed using `The Carpentries <https://carpentries.org/>`__ pedagog
 framework with financial support from the `Alfred P. Sloan Foundation
 <https://sloan.org/>`__.
 
-`Catalyst Agent Skills <https://github.com/catalyst-cooperative/agent-skills>`__
---------------------------------------------------------------------------------
-
-A collection of `agent skills <https://agentskills.io/home>`__ that help LLM-based
-agents work with the PUDL data, metadata, and codebase.
-
 `FERC XBRL Extractor <https://docs.catalyst.coop/ferc-xbrl-extractor>`__
 ------------------------------------------------------------------------
 
@@ -71,6 +71,14 @@ analytical use.
 This repository is a fork of the `original EPA-EIA crosswalk
 <https://github.com/USEPA/camd-eia-crosswalk>`__ repo, and updates the system to be able to
 use any recent year of data and to build a crosswalk that covers multiple years of data.
+
+`Cheshire <https://docs.catalyst.coop/cheshire>`__
+--------------------------------------------------
+
+Cheshire is a `template repository
+<https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template>`__
+that configures a bunch of infrastructure we use in many of our projects, so we have a
+clean reference when creating a new repo.
 
 `Eel Hole <https://github.com/catalyst-cooperative/eel-hole>`__
 ---------------------------------------------------------------
