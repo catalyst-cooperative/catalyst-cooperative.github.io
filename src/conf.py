@@ -9,9 +9,7 @@ import datetime
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "Catalyst Cooperative"
-copyright = (  # noqa: A001
-    f"2016-{datetime.date.today().year}, Catalyst Cooperative, CC-BY-4.0"
-)
+copyright = f"2016-{datetime.date.today().year}, Catalyst Cooperative, CC-BY-4.0"
 author = "Catalyst Cooperative"
 
 # -- General configuration ---------------------------------------------------
