@@ -9,7 +9,7 @@ import datetime
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "Catalyst Cooperative"
-copyright = f"2016-{datetime.date.today().year}, Catalyst Cooperative, CC-BY-4.0"
+copyright = f"2016-{datetime.datetime.now(tz=datetime.UTC).date().year}, Catalyst Cooperative, CC-BY-4.0"
 author = "Catalyst Cooperative"
 
 # -- General configuration ---------------------------------------------------
